@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f0eb;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: #654321;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 30px;
+}
+
+th, td {
+  padding: 16px 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #795548;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #faf5f0;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.occupied {
+  color: #c62828;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .container {
+    overflow-x: auto;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  table {
+    min-width: 650px;
+  }
+}
